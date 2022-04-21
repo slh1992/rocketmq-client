@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/rocketmq-client-go/v2"
-	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/apache/rocketmq-client-go/v2/producer"
+	"github.com/slh92/rocketmq-client"
+	"github.com/slh92/rocketmq-client/primitive"
+	"github.com/slh92/rocketmq-client/producer"
 )
 
 type DemoListener struct {

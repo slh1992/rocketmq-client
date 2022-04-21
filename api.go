@@ -19,11 +19,10 @@ package rocketmq
 
 import (
 	"context"
+	"github.com/slh92/rocketmq-client/primitive"
+	"github.com/slh92/rocketmq-client/producer"
 
 	"github.com/pkg/errors"
-
-	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/apache/rocketmq-client-go/v2/producer"
 	"github.com/slh92/rocketmq-client/consumer"
 )
 
