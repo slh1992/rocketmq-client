@@ -20,8 +20,8 @@ package producer
 import (
 	"time"
 
-	"github.com/apache/rocketmq-client-go/v2/internal"
-	"github.com/apache/rocketmq-client-go/v2/primitive"
+	"github.com/slh92/rocketmq-client/internal"
+	"github.com/slh92/rocketmq-client/primitive"
 )
 
 func defaultProducerOptions() producerOptions {
